@@ -1,6 +1,6 @@
 # grunt-bscss
 
-> A grunt plugin to use bscss
+> A grunt plugin to use [bscss](http://bscss.csspatterns.com/)
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -41,7 +41,7 @@ grunt.initConfig({
 Type: `String`
 Default value: `'chrome'`
 
-Target browser to optimize for. Values are  `'chrome','ios','safari','firefox','opera','ie6','ie7','ie8','ie9','ie10','ie11'`.
+Target browser to optimize for. Values are  `'chrome','ios','safari','firefox','opera','ie6','ie7','ie8','ie9','ie10','ie11'`. Right now only one values is possible as BSCSS does only support one.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
